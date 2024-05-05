@@ -5,14 +5,12 @@ titulo.innerText = "Cervejaria do DOM";
 
 let body = document.querySelector("body");
 
-body.appendChild(titulo);
+body.appendChild(titulo)
 
-// ------------------------------------------- //
 
-// Criando um elemento para o produto
 let produto = document.createElement("div");
 
-// Manipulando o elemento
+
 produto.innerHTML = `
   <div>
     <h2>Caneca de Chopp Pilsen</h2>
@@ -23,5 +21,4 @@ produto.innerHTML = `
   </div>
 `;
 
-// Adicionando o elemento no dom
 body.appendChild(produto)
